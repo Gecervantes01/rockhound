@@ -2,6 +2,11 @@
 
 **RockHound** is a pocket geologist app designed for outdoor enthusiasts, budding geologists, and anyone with an interest in rocks and minerals. Users can snap a picture of any rock or mineral they find, and the app will use a custom-trained AI model to identify it, providing key information and details about its characteristics.
 
+## Contents
+[Features](#-features)
+[About](#-about)
+[Setup](#-setup)
+
 ## Features
 
 - **AI-Powered Rock Identification**: RockHound features a custom AI model designed to accurately identify rocks and minerals from images. By leveraging machine learning, the app becomes a powerful tool for identifying and understanding the world of geology.
@@ -13,4 +18,8 @@
 ## Project Focus
 
 The project has evolved to include not only the development of the RockHound mobile app but also the training and refinement of a machine learning model specifically for rock identification. This model is trained using a diverse dataset of rock images, employing techniques such as data augmentation and convolutional neural networks (CNNs) to achieve high accuracy in identifying various rock types.
+
+## Setup
+
+
 
