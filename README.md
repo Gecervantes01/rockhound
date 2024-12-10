@@ -16,13 +16,15 @@ The project has evolved to include not only the development of the RockHound mob
 
 ## Setup (To run model)
 
+#### **Disclaimer:**
+Training a convolutional neural network can be resource intensive!
+
 #### 1. Environment
 You'll want to have the following installed (**Skip if using Google Colab**):
   - [*Python*](https://www.python.org/downloads/) version 3.8 - 3.11
-  - [*TensorFlow*](https://www.tensorflow.org/install)
     
 The Rockhound convolutional neural network(CNN) was written in a Jupyter Notebook. To work with the `.ipynb` file:
-  - Install a Jupyter extension for your IDE of choice. **If you're using JupyterLab or Google Colab this can be skipped**.
+  - Install a Jupyter extension for your IDE of choice (additional Jupyter related extensions may be required). **If you're using JupyterLab or Google Colab this can be skipped**.
 
 #### 2. Download Project Files
 Once your environment is setup, download the ZIP containing all the files. For this purpose you'll only need the files within the `rh_model` folder. This should contain:
@@ -30,7 +32,7 @@ Once your environment is setup, download the ZIP containing all the files. For t
   - `rockhound_cnn.ipynb`, a file containing the model code.
 
 #### 3. Setup Dependencies
-Running the first code cell installs all dependencies necessary. After this has completed, all imports needed are listed throughout the notebook, simply run each cell.
+Open `rockhound_cnn.ipynb` and prior to running the first cell select a python kernel (must be between versions 8 - 11). Then, running the first code cell installs all dependencies necessary (this may take a minute). After this has completed, all imports needed are listed throughout the notebook, simply run each cell.
 
 #### 4. Run Notebook Cells
-Lastly, in the `rockhound_cnn.ipynb` file run the cells in sequential order. Observe the model's training, evaluation, and results.
+Lastly, run the reamaining cells in sequential order observing the model's training, evaluation, and results.
