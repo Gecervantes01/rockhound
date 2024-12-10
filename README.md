@@ -17,19 +17,20 @@ The project has evolved to include not only the development of the RockHound mob
 ## Setup (To run model)
 
 #### 1. Environment
-You'll want to have the following installed (**Ignore if using Google Colab**):
+You'll want to have the following installed (**Skip if using Google Colab**):
   - [*Python*](https://www.python.org/downloads/) version 3.8 - 3.11
   - [*TensorFlow*](https://www.tensorflow.org/install)
     
-The Rockhound convolutional neural network(CNN) was written in a Jupyter Notebook, in order to work with the `.ipynb` file you'll need to install a Jupyter extension for your IDE of choice. **If you're using JupyterLab or Google Colab this can be ignored**.
+The Rockhound convolutional neural network(CNN) was written in a Jupyter Notebook. To work with the `.ipynb` file:
+  - Install a Jupyter extension for your IDE of choice. **If you're using JupyterLab or Google Colab this can be skipped**.
 
-#### 2. Setup Dependencies
-Running the first code cell installs all dependencies necessary. After this has completed, all imports needed are listed throughout the notebook only needing the cell to be ran.
-
-#### 3. Download Project Files
+#### 2. Download Project Files
 Once your environment is setup, download the ZIP containing all the files. For this purpose you'll only need the files within the `rh_model` folder. This should contain:
   - `dataset`, a folder containing all the data required to train/test the model.
-  - `rockhound_cnn.ipynb`, a file containing the model itself.
+  - `rockhound_cnn.ipynb`, a file containing the model code.
+
+#### 3. Setup Dependencies
+Running the first code cell installs all dependencies necessary. After this has completed, all imports needed are listed throughout the notebook, simply run each cell.
 
 #### 4. Run Notebook Cells
-Lastly, run the cells in sequential order and observe the results of the model.
+Lastly, in the `rockhound_cnn.ipynb` file run the cells in sequential order. Observe the model's training, evaluation, and results.
