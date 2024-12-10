@@ -4,7 +4,7 @@
 
 ## Features
 
-- **AI-Powered Rock Identification**: RockHound features an AI model designed to accurately identify rocks and minerals from images. By leveraging machine learning, the app becomes a powerful tool for identifying and understanding the world of geology.
+- **AI-Powered Rock Identification**: RockHound features a custom AI model designed to accurately identify rocks and minerals from images. By leveraging machine learning, the app becomes a powerful tool for identifying and understanding the world of geology.
   
 - **Interactive AI Chatbot (Rocco the RockHound)**: Engage with Rocco the RockHound, the interactive AI chatbot. Rocco answers your geology-related questions and makes learning about rocks fun!
 
