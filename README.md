@@ -2,11 +2,6 @@
 
 **RockHound** is a pocket geologist app designed for outdoor enthusiasts, budding geologists, and anyone with an interest in rocks and minerals. Users can snap a picture of any rock or mineral they find, and the app will use a custom-trained AI model to identify it, providing key information and details about its characteristics.
 
-## Contents
-1. [Features](#-features)
-2. [About](#-about)
-3. [Setup](#-setup-(to-run-model))
-
 ## Features
 
 - **AI-Powered Rock Identification**: RockHound features a custom AI model designed to accurately identify rocks and minerals from images. By leveraging machine learning, the app becomes a powerful tool for identifying and understanding the world of geology.
@@ -32,6 +27,9 @@ The Rockhound convolutional neural network(CNN) was written in a Jupyter Noteboo
 Running the first code cell installs all dependencies necessary. After this has completed, all imports needed are listed throughout the notebook only needing the cell to be ran.
 
 #### 3. Download Project Files
-Once your environment is setup, download the ZIP containing all the files. For this purpose you'll only need the files within the `rh_model` folder.
+Once your environment is setup, download the ZIP containing all the files. For this purpose you'll only need the files within the `rh_model` folder. This should contain:
+  - `dataset`, a folder containing all the data required to train/test the model.
+  - `rockhound_cnn.ipynb`, a file containing the model itself.
 
 #### 4. Run Notebook Cells
+Lastly, run the cells in sequential order and observe the results of the model.
